@@ -13,7 +13,7 @@ git clone https://github.com/viniciushvc/frontend-challenge
 Install packages
 
 ```sh
-npm install
+pnpm install
 ```
 
 Rename .env.local.example to .env.local and add to NEXT_PUBLIC_API_URL
@@ -25,5 +25,5 @@ Rename .env.local.example to .env.local and add to NEXT_PUBLIC_API_URL
 Run the project
 
 ```sh
-npm run dev
+pnpm run dev
 ```
