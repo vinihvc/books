@@ -34,7 +34,7 @@ const ProfileTemplate = ({ reading = [], read = [] }: ProfileTemplateProps) => {
           />
 
           <Text family="heading" size="2xl" weight="semibold" mt={20}>
-            Vinicius Vicentini
+            {USER.name}
           </Text>
         </Box>
       </Flex>
